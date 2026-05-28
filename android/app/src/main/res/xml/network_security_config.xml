@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+    
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+    
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">newjwxt.bjfu.edu.cn</domain>
+        <domain includeSubdomains="true">bjfu.edu.cn</domain>
+        <domain includeSubdomains="true">202.204.121.79</domain>
+        <domain includeSubdomains="true">202.204.121.78</domain>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

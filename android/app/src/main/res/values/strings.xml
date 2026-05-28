@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">课表解析应用</string>
+    <string name="title_activity_main">课表解析应用</string>
+    <string name="package_name">com.schedule.app</string>
+    <string name="custom_url_scheme">com.schedule.app</string>
+    <string name="widget_description">显示今日课程的小部件</string>
+    <string name="weekly_widget_description">显示整周课程的表格小部件</string>
+</resources>
