@@ -23,7 +23,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/schedule-app.git
+git clone https://github.com/CM4709184-LGTM/schedule-app.git
 cd schedule-app
 
 # 安装依赖
