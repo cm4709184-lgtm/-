@@ -1,0 +1,24 @@
+{
+  "appId": "com.schedule.app",
+  "productName": "课表解析应用",
+  "directories": {
+    "output": "release-v1.0.5"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "package.json"
+  ],
+  "asar": false,
+  "win": {
+    "target": [
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      }
+    ]
+  },
+  "portable": {
+    "artifactName": "课表解析应用-${version}-win64.${ext}"
+  }
+}
